@@ -1,0 +1,11 @@
+__pycache__
+
+.idea
+
+# Ignore .env file
+.env
+.DS_Store
+
+# Ignore all .wav files except for can_you_repeat_please.wav
+*.wav
+!can_you_repeat_please.wav
