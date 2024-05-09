@@ -1,0 +1,62 @@
+body {
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .wrapper {
+            transition: all 1s;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .record-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .text {
+            text-align: center;
+            font-family: Verdana, sans-serif;
+        }
+
+        .record-button {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background-color: #ff4d4d;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            border: solid 5px black;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .stop-record-button {
+            width: 75px;
+            height: 75px;
+            background-color: #ff4d4d;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            border: solid 5px black;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
